@@ -1,0 +1,107 @@
+html {
+    width: 1160px;
+    height: 1400px;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+}
+@font-face {
+    font-family: 'raleway';
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300&display=swap');
+}
+
+header{
+    background-color: #782221;
+    display: block;
+}
+.photo{
+    width: 10%;
+    display: block;
+    margin: auto;
+    align-items: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px black;
+    cursor: zoom-in;
+}
+
+h1{
+    text-align: center;
+    font-family: 'lato' sans-serif;
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 1160;
+    background-color: #2c1d27;
+}
+
+address:hover{
+    text-decoration: underline;
+}
+
+
+div{
+    display: flex;
+    gap: 10px;
+}
+
+#flex-column{
+    flex-direction: column;
+    width: 300px;
+    height: 700px;
+    background-color: #782221
+}
+
+#indentation{
+    text-indent: 1em;
+}
+
+h2{
+    background-color: #dbc2a4;
+    font-family: 'lato' sans-serif;
+    text-indent: 0.2em;
+}
+
+.titre-h2{
+    margin-right: 20px;
+    border-left: 0.4em solid #782221
+}
+
+ul{
+    color: #FFFFFF;
+}
+
+#flex-col{
+    flex-direction: column;
+    width: 842px;
+    height: 700px;
+    border-right-style: solid;
+    margin-left: 20px;
+    font-family: 'raleway';
+}
+
+p:hover{
+    border-right:1em #782221;
+}
+
+footer {
+    display: flex;
+    height: 100px;
+    width: 1145px;
+    background-color: #782221;
+}
+
+#images{
+    flex-direction: row;
+    align-items: center;
+    width: 3em;
+    height: 3em;
+}
+img:hover{
+    opacity: 0.5;
+}
